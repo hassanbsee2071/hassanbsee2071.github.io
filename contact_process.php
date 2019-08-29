@@ -1,6 +1,6 @@
 <?php
 
-    $to = "rockybd1995@gmail.com";
+    $to = "syedhassaniiui@gmail.com";
     $from = $_REQUEST['email'];
     $name = $_REQUEST['name'];
     $subject = $_REQUEST['subject'];
@@ -33,5 +33,5 @@
 	$body .= "</body></html>";
 
     $send = mail($to, $subject, $body, $headers);
-
+   echo "Please contact via separate email. Thank You";
 ?>
